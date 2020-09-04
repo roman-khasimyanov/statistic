@@ -4,13 +4,12 @@
   "private": true,
   "devDependencies": {
     "lerna": "^3.20.2",
-    "typescript": "^3.9.7"
+    "typescript": "^3.9.7",
+    "yarn": "^1.22.4"
   },
   "scripts": {
     "bootstrap": "lerna clean -y && lerna bootstrap",
     "build:packages": "lerna run build-package",
-    "build:packages:server": "lerna run build-package --scope=@umk/abac --scope=@umk/ldap --scope=@umk/server-*",
-    "build:packages:client": "lerna run build-package --scope=@umk/client-*",
     "build:packages:statistic-server": "lerna run build-package --scope=@umk/statistic-server*",
     "build:packages:statistic-client": "lerna run build-package --scope=@umk/statistic-client*",
     "start": "pm2 start umk.pm2.json",
@@ -25,7 +24,5 @@
     "packages/*",
     "apps/*"
   ],
-  "dependencies": {
-    "yarn": "^1.22.4"
-  }
+
 }
