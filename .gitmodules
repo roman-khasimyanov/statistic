@@ -4,3 +4,15 @@
 [submodule "statistic-server"]
 	path = apps/statistic-server
 	url = http://10.1.16.11/umk/stat/statistic-server.git
+[submodule "statistic-client-relay"]
+	path = packages/statistic-client-relay
+	url = http://10.1.16.11/umk/stat/statistic-client-relay.git
+[submodule "statistic-client-components"]
+	path = packages/statistic-client-components
+	url = http://10.1.16.11/umk/stat/statistic-client-components.git
+[submodule "statistic-server-core"]
+	path = packages/statistic-server-core
+	url = http://10.1.16.11/umk/stat/statistic-server-core.git
+[submodule "statistic-server-database"]
+	path = packages/statistic-server-database
+	url = http://10.1.16.11/umk/stat/statistic-server-database.git
