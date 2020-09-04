@@ -1,0 +1,3 @@
+[submodule "statistic-client"]
+    path=apps/statistic-client
+    url=./statistic-client.git
