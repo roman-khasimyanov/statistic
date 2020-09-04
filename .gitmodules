@@ -1,3 +1,6 @@
 [submodule "statistic-client"]
-    path=apps/statistic-client
-    url=./statistic-client.git
+	path = apps/statistic-client
+	url = http://10.1.16.11/umk/stat/statistic-client.git
+[submodule "statistic-server"]
+	path = apps/statistic-server
+	url = http://10.1.16.11/umk/stat/statistic-server.git
