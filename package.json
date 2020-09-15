@@ -1,6 +1,7 @@
 {
-  "name": "umk",
+  "name": "@umk-stat/statistic",
   "version": "1.0.0",
+  "private": true,
   "devDependencies": {
     "lerna": "^3.20.2",
     "typescript": "^3.9.7",
@@ -9,8 +10,8 @@
   "scripts": {
     "bootstrap": "lerna clean -y && lerna bootstrap",
     "build:packages": "lerna run build-package",
-    "build:packages:statistic-server": "lerna run build-package --scope=@umk/statistic-server*",
-    "build:packages:statistic-client": "lerna run build-package --scope=@umk/statistic-client*",
+    "build:packages:statistic-server": "lerna run build-package --scope=@umk-stat/statistic-server*",
+    "build:packages:statistic-client": "lerna run build-package --scope=@umk-stat/statistic-client*",
     "start": "pm2 start umk.pm2.json",
     "start:stat": "pm2 start stat.pm2.json",
     "start:clients": "lerna run serve-static",
