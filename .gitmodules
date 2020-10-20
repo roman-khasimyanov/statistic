@@ -6,7 +6,7 @@
 	url = https://github.com/SpiritOfTheMoon/statistic-server.git
 [submodule "statistic-client-relay"]
 	path = packages/statistic-client-relay
-	url = https://github.com/SpiritOfTheMoont/statistic-client-relay.git
+	url = https://github.com/SpiritOfTheMoon/statistic-client-relay.git
 [submodule "statistic-client-components"]
 	path = packages/statistic-client-components
 	url = https://github.com/SpiritOfTheMoon/statistic-client-components.git
